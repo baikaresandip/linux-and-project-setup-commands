@@ -23,7 +23,11 @@
 
 ### Change in any of the PHP ini
 `sudo nano /etc/php/8.3/fpm/php.ini`
+
 `sudo nano /etc/php/8.3/cli/php.ini`
+
 `sudo systemctl restart php8.3-fpm`
+
 `sudo systemctl restart apache2`
+
 
