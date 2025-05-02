@@ -1,4 +1,4 @@
-# Linux and project setup commands
+# Linux commands and setup project on Ubuntu
 
 This repo will help to users to setup the Ubuntu and projects on their linux/ubuntu system
 You will find all the important commands in below respected file
