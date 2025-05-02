@@ -141,6 +141,11 @@ git log
 git log --oneline
 ```
 
+> Get the all files changes in the last commit
+```bash 
+git diff --name-only HEAD HEAD~1
+```
+
 > View a simplified commit history.
 
 ```bash
