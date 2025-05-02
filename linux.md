@@ -18,3 +18,6 @@ Solution:
 Install some packages by installing from this location:
 https://community.localwp.com/t/installation-failed-in-ubuntu-24-04-lts/42579/3
 
+
+### Get the current IP of system
+`curl -4 icanhazip.com`
