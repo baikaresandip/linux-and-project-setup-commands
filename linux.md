@@ -21,3 +21,10 @@ https://community.localwp.com/t/installation-failed-in-ubuntu-24-04-lts/42579/3
 
 ### Get the current IP of system
 `curl -4 icanhazip.com`
+
+## Error: ubuntu: The following exception probably indicates you have misconfigured DNS resolver() OR curl error 28: resolving timed out after 10000 milliseconds 
+- sudo vim /etc/resolv.conf
+- Remove/comment existing nameserver and try below
+- Add `nameserver 8.8.8.8`
+- Try running `ping -n 8.8.8.8` it should not return the timeout error
+
