@@ -32,6 +32,10 @@ Creates a new Shopware admin user via prompts.
 
 Changes the password for an existing admin user.
 
+###  `bin/console user:list`             
+
+List current users
+
 ---
 
 ## 🔄 Cache & Indexing
