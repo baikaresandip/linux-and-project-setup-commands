@@ -84,6 +84,61 @@ Displays event listeners and subscriber mappings.
 
 Shows available routes and their configurations.
 
+### `bin/console debug:autowiring`        
+
+List classes/interfaces you can use for autowiring
+
+### `bin/console debug:business-events`   
+
+Dumps all business events
+
+### `bin/console  debug:config`            
+
+Dump the current configuration for an extension
+
+### `bin/console debug:container`         
+
+Display current services for an application
+
+### `bin/console debug:dotenv`
+
+List all dotenv files with variables and values
+
+### `bin/console debug:event-dispatcher`  
+
+Display configured listeners for an application
+
+### `bin/console debug:messenger`         
+
+List messages you can dispatch using the message buses
+
+
+### `bin/console debug:router`            
+
+Display current routes for an application
+
+### `bin/console debug:scheduler `         
+
+List schedules and their recurring messages
+
+
+### `bin/console debug:serializer`        
+
+Display serialization information for classes
+
+### `bin/console debug:translation`       
+
+Display translation messages information
+
+### `bin/console debug:twig`              
+
+Show a list of twig functions, filters, globals and tests
+
+### `bin/console debug:validator`         
+
+Display validation constraints for classes
+
+
 ---
 
 ## 📦 Plugins
